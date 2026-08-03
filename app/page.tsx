@@ -398,7 +398,7 @@ export default function Home() {
             <h1 className="hero-title" aria-label="I build digital systems that turn ambitious ideas into scalable businesses">
               <span className="line"><span>I build digital systems</span></span>
               <span className="line"><span>that turn <em>ambitious ideas</em></span></span>
-              <span className="line"><span>into scalable businesses.</span></span>
+              <span className="line"><span>into scalable <em>businesses.</em></span></span>
             </h1>
             <p className="hero-copy">I&apos;m Uge Destiny Enanefe—a product-minded developer building modern platforms at the intersection of technology, commerce and real-world problems.</p>
             <div className="hero-actions">
@@ -566,7 +566,7 @@ export default function Home() {
             <article data-reveal><span>2026 — PRESENT</span><div><small>GLEENC</small><h3>Founder · Full-stack Developer · Product Strategist</h3><p>Leading the development of a multi-role social-commerce, payment and local-delivery platform.</p></div></article>
             <article data-reveal><span>2025 — PRESENT</span><div><small>TEKAGON</small><h3>Full-stack Developer · Business Strategist</h3><p>Building digital service, communication and client-operation systems for modern businesses.</p></div></article>
             <article data-reveal><span>2021 — 2022</span><div><small>WELUP DIGITAL</small><h3>Junior Developer</h3><p>Worked alongside senior developers to build and maintain APIs, research product-design decisions and strengthen the scalability of growing projects. The role developed my understanding of dependable backend work, maintainable systems and how technical choices affect a product as its users and requirements expand.</p><a className="timeline-link" href="https://www.welupdigital.com/" target="_blank" rel="noreferrer">Visit Welup Digital <ArrowUpRight size={13} /></a></div></article>
-            <article data-reveal><span>CURRENT</span><div><small>FUPRE</small><h3>Chemical Engineering · 400 Level</h3><p>Strengthening analytical thinking, systems reasoning and structured problem-solving at the Federal University of Petroleum Resources, Effurun.</p></div></article>
+            <article data-reveal><span>CURRENT</span><div><small>FUPRE</small><h3>Entrepreneurship & Innovation</h3><p>Developing scalable ventures through market research, product strategy and technology—turning real-world marketplace challenges into solutions such as Gleenc.</p></div></article>
             <article data-reveal><span>FOUNDATION</span><div><small>EDOBIT ICT ACADEMY</small><h3>Diploma in Web Design and Graphics</h3><p>The creative and technical foundation that began my journey into building for the web.</p></div></article>
           </div>
         </div>
