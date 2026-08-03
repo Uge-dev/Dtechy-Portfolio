@@ -14,6 +14,7 @@ import {
   Code2,
   Cpu,
   Database,
+  Download,
   ExternalLink,
   Layers3,
   Mail,
@@ -401,10 +402,23 @@ export default function Home() {
               <span className="line"><span>into scalable <em>businesses.</em></span></span>
             </h1>
             <p className="hero-copy">I&apos;m Uge Destiny Enanefe—a product-minded developer building modern platforms at the intersection of technology, commerce and real-world problems.</p>
-            <div className="hero-actions">
-              <a className="button primary-button magnetic" href="#work">Explore my work <ArrowDown size={17} /></a>
-              <a className="text-link" href="#contact">Let&apos;s build together <ArrowUpRight size={16} /></a>
-            </div>
+           <div className="hero-actions">
+  <a className="button primary-button magnetic" href="#work">
+    Explore my work <ArrowDown size={17} />
+  </a>
+
+  <a
+    className="button secondary-button"
+    href="/Uge-Destiny-Enanefe-Resume.pdf"
+    download="Uge-Destiny-Enanefe-Resume.pdf"
+  >
+    Download resume <Download size={17} />
+  </a>
+
+  <a className="text-link" href="#contact">
+    Let&apos;s build together <ArrowUpRight size={16} />
+  </a>
+</div>
           </div>
           <SystemVisual />
           <div className="hero-meta">

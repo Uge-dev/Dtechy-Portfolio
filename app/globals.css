@@ -485,6 +485,24 @@ a {
   box-shadow: 0 20px 48px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
+.secondary-button {
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  transition:
+    transform 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.secondary-button:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+  transform: translateY(-4px);
+}
+
 .text-link {
   padding-bottom: 6px;
   display: inline-flex;
@@ -1899,7 +1917,10 @@ footer > a:last-child { display: inline-flex; align-items: center; gap: 6px; }
   .hero-title .line:nth-child(2) em { display: block; }
   .hero-copy { margin-top: 24px; font-size: 14px; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 18px; }
-  .primary-button { width: 100%; }
+  .primary-button,
+.secondary-button {
+  width: 100%;
+}
   .text-link { width: fit-content; }
   .system-visual { min-height: 430px; margin: 10px -25px 0; transform: scale(.94); }
   .system-grid { inset: 11% 1% 2%; }
